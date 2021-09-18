@@ -1,0 +1,64 @@
+*{  
+    color:rgb(11, 11, 48);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:16px;
+    line-height: 1.5;
+    margin:0;
+    padding:0;
+}
+
+
+/* Nav styles */
+li.nav-item{
+    display:inline-block;
+    padding:.25rem;
+}
+
+li.nav-item > a{
+    font-weight: 600;
+    margin: 10px;
+    text-decoration: none;
+}
+
+/* Pseudo-states */
+li.nav-item > a:link{
+    color:rgb(11, 11, 48);
+}
+
+li.nav-item > a:hover, li.nav-item > a:active, li.nav-item:visited{
+    color:rgb(2, 2, 196);
+}
+
+h1{font-size: 2rem;}
+h2{font-size: 1.75rem;}
+h3{font-size:1.5rem;}
+h4{font-size:1.25rem;}
+h5{font-size:1rem;}
+h6{font-size:.75rem;}
+
+/* Text Styles */
+.main{
+    margin:0 auto;
+    padding: 10px 0;
+    width:90%;
+}
+
+section{
+    background-color: orangered;
+    padding: 10px;
+    width:90%;
+    margin:0 auto;
+}
+
+
+/* Media Queries */
+/* Portrait */
+@media only screen and (max-width:400px) {
+h1{font-size: calc(2rem*.75)}
+h2{font-size: calc(1.75rem*.75)}
+h3{font-size:calc(1.5rem*.75)}
+h4{font-size:calc(1.25rem*.75)}
+h5{font-size:calc(1rem*.75);}
+h6{font-size:.5rem;}
+p{font-size:.95rem;}
+}
