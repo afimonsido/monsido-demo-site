@@ -1,0 +1,116 @@
+*{  
+    color:rgb(5, 41, 66);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:16px;
+    line-height: 1.5;
+    margin:0;
+    padding:0;
+}
+
+
+/* Nav styles */
+li.nav-item{
+    display:inline-block;
+    padding:.25rem;
+}
+
+li.nav-item > a{
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin: 10px;
+    text-decoration: none;
+}
+
+/* Pseudo-states */
+li.nav-item > a:link{
+    color:rgb(5,41,66);
+}
+
+li.nav-item > a:hover, li.nav-item > a:active, li.nav-item:visited{
+    border-bottom:  2px solid rgb(5,41,66);
+    padding-bottom:5px;
+}
+
+h1{font-size: 2rem;}
+h2{font-size: 1.75rem;
+padding-bottom:.5rem;}
+h3{font-size:1.5rem;}
+h4{font-size:1.25rem;}
+h5{font-size:1rem;}
+h6{font-size:.75rem;}
+
+/* Text Styles */
+.main{
+    margin:0 auto;
+    padding: 10px 0;
+    width:1260px;
+}
+
+section{
+    background-color: #fff;
+    padding: 10px;
+    width:90%;
+    margin:0 auto;
+}
+
+hr.section-divider{
+    border-top: 2px solid rgb(5,41,66);
+}
+
+hr.section-divider + p{
+    padding-top:.5rem;
+}
+
+/* Media Queries */
+/* Portrait */
+@media only screen and (max-width:400px) {
+h1{font-size: calc(2rem*.75)}
+h2{font-size: calc(1.75rem*.75)}
+h3{font-size:calc(1.5rem*.75)}
+h4{font-size:calc(1.25rem*.75)}
+h5{font-size:calc(1rem*.75);}
+h6{font-size:.5rem;}
+p{font-size:.95rem;}
+}
+
+
+/* Landmarks */
+/* Header */
+#demo-header.monsido-demo-nav{
+    box-shadow: rgb(0 0 0 / 10%) 0 6px 12px -6px;
+    margin: 0 auto;
+}
+.monsido-demo-nav >.container{
+    max-width:1290px;
+    padding: 1.5rem 0;
+    margin:0 auto;
+}
+
+/* End of Header */
+/* Footer */
+
+.footer {
+    background-color:rgb(5,41,66);
+    bottom: 0;
+    color: white;
+    left: 0;
+    padding:1.5rem 0;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+ }
+ nav.footer-nav.nav ul li.nav-item a{
+    color:rgb(230, 230, 230);
+    font-weight: 400;
+}
+
+
+/* Images */
+img.icons{
+    border-style:none;
+    display: inline-block;
+    height: auto;
+    max-width:100%;
+    margin-right:.25rem;
+    vertical-align: middle;
+}
