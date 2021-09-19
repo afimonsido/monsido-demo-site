@@ -1,36 +1,149 @@
 <!DOCTYPE html>
 <html lang="en-AU">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web Governance Demo</title>
-
-    <!-- Stylesheet and Favicon-->
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="icon" type="image/x-icon" href="./images/favicon_io/favicon.ico">
-    <!-- End of Stylesheet and Favicon -->
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Web Governance Demo</title>
+    
+        <!-- Stylesheet and Favicon-->
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/megamenu.css">
+        <link rel="icon" type="image/x-icon" href="./images/favicon_io/favicon.ico">
+        <!-- End of Stylesheet and Favicon -->
+    
+        <!-- FontAwesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- End of FontAwesome -->
+    </head>
 <body>
     <!-- Start of header -->
-    <header id="demo-header" class="monsido-demo-nav">
+    <header id="demo-header" class="monsido-demo-nav navbar">
         <div class="container">
             <nav role="navigation" class="main-nav nav">
                 <ul>
-                    <li class="nav-item"><a href="./">Home</a></li>
-                    <li class="nav-item"><a href="./quality_assurance.html">Quality Assurance</a></li>
-                    <li class="nav-item"><a href="./policies.html">Policies</a></li>
-                    <li class="nav-item"><a href="./web_acc_page_1.html">Web Accessibility</a></li>
-                    <li class="nav-item"><a href="./on_page_seo.html">On Page SEO</a></li>
-                    <li class="nav-item"><a href="./performance.html">Performance</a></li>
-                    <li class="nav-item"><a href="./data_privacy.html">Data Privacy</a></li>
-                    <li class="nav-item"><a href="./acc_statement.html">Accessibility Statement</a></li>
+                    <li class="nav-item dropdown">
+                    <button class="dropbtn">
+                           <i class="fa fa-home"></i><a href="./">Home</a>
+                    </button>
+                    </li>
+                    <!-- Quality Assurance Menu -->
+                    <li class="nav-item dropdown">
+                     <button class="dropbtn">
+                        <a href="./quality_assurance.html">Quality Assurance</a>
+                        <i class="fa fa-caret-down"></i>
+                      </button>
+                      <div class="dropdown-content">
+                          <div class="row">
+                              <div class="column">
+                                  <ul class="menu-list">
+                                      <li><img src="./images/broken-link-chain-svgrepo-com.svg" alt="" class="menu-icons"><a href="#">Broken Links</a></li>
+                                      <li><a href="#">Broken Images</a></li>
+                                  </ul>
+                              </div>
+                              <div class="column">
+                                <ul class="menu-list">
+                                    <li><a href="#">Misspellings</a></li>
+                                    <li><a href="#">Readability</a></li>
+                                </ul>
+                            </div>
+                          </div>
+                      </div>
+                    </li>
+                    <!-- End of Quality Assurance Menu -->
+                    
+                    <!-- Policies Menu -->
+                    <li class="nav-item dropdown">
+                        <button class="dropbtn">
+                           <a href="./policies.html">Policies</a>
+                           <i class="fa fa-caret-down"></i>
+                         </button>
+                         <div class="dropdown-content">
+                             <div class="row">
+                                 <div class="column">
+                                     <ul>
+                                         <li><a href="#">Templates</a></li>
+                                         <li><a href="#">Search Types</a></li>
+                                         <li><a href="#">Regular Expressions</a></li>
+                                         <li><a href="#">CSS Selectors</a></li>
+                                     </ul>
+                                 </div>
+                             </div>
+                         </div>
+                    </li>
+                    <!-- End of Policies Menu -->
+
+                    <!-- On Page SEO Menu -->
+                    <li class="nav-item dropdown">
+                        <button class="dropbtn">
+                           <a href="./on_page_seo.html">On Page SEO</a>
+                           <i class="fa fa-caret-down"></i>
+                         </button>
+                         <div class="dropdown-content">
+                             <div class="row">
+                                 <div class="column">
+                                     <ul>
+                                         <li><a href="#">Templates</a></li>
+                                         <li><a href="#">Search Types</a></li>
+                                         <li><a href="#">Regular Expressions</a></li>
+                                         <li><a href="#">CSS Selectors</a></li>
+                                     </ul>
+                                 </div>
+                             </div>
+                         </div>
+                    </li>
+                    <!-- End of On Page SEO Menu -->
+                    
+                    <!-- On Performance Menu -->
+                    <li class="nav-item dropdown">
+                        <button class="dropbtn">
+                           <a href="./performance.html">Performance</a>
+                           <i class="fa fa-caret-down"></i>
+                         </button>
+                         <div class="dropdown-content">
+                             <div class="row">
+                                 <div class="column">
+                                     <ul>
+                                         <li><a href="#">Templates</a></li>
+                                         <li><a href="#">Search Types</a></li>
+                                         <li><a href="#">Regular Expressions</a></li>
+                                         <li><a href="#">CSS Selectors</a></li>
+                                     </ul>
+                                 </div>
+                             </div>
+                         </div>
+                    </li>
+                    <!-- End of Performance Menu --> 
+                    
+                    <!-- Data Privacy Menu -->
+                    <li class="nav-item dropdown">
+                        <button class="dropbtn">
+                           <a href="./data_privacy.html">Data Privacy</a>
+                           <i class="fa fa-caret-down"></i>
+                         </button>
+                         <div class="dropdown-content">
+                             <div class="row">
+                                 <div class="column">
+                                     <ul>
+                                         <li><a href="#">Templates</a></li>
+                                         <li><a href="#">Search Types</a></li>
+                                         <li><a href="#">Regular Expressions</a></li>
+                                         <li><a href="#">CSS Selectors</a></li>
+                                     </ul>
+                                 </div>
+                             </div>
+                         </div>
+                    </li>
+                    <!-- End of Data Privacy Menu -->   
+                    <!-- 
+                    <li class="nav-item dropdown"><button class="droptbn"><span class="fa fa-caret -down"></span></button><a href="./performance.html">Performance</a></li>
+                    <li class="nav-item dropdown"><button class="droptbn"><span class="fa fa-caret -down"></span></button><a href="./data_privacy.html">Data Privacy</a></li>
+                    <li class="nav-item dropdown"><button class="droptbn"><span class="fa fa-caret -down"></span></button><a href="./acc_statement.html">Accessibility Statement</a></li> -->
                 </ul>
             </nav>
         </div>
     </header>
     <!-- End of header -->
-
     <main class="main">
         <section class="welcome">
             <h1><img src="./images/monsido-logo.png" alt="Monsido Logo" class="icons monsido-icon">Welcome to the Web Governance Demo Site</h1>

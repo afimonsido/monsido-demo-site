@@ -3,33 +3,13 @@
     font-family:Arial, Helvetica, sans-serif;
     font-size:16px;
     line-height: 1.5;
+    list-style-type: none;
     margin:0;
     padding:0;
 }
 
 
-/* Nav styles */
-li.nav-item{
-    display:inline-block;
-    padding:.25rem;
-}
 
-li.nav-item > a{
-    font-size: 1.25rem;
-    font-weight: 400;
-    margin: 10px;
-    text-decoration: none;
-}
-
-/* Pseudo-states */
-li.nav-item > a:link{
-    color:rgb(5,41,66);
-}
-
-li.nav-item > a:hover, li.nav-item > a:active, li.nav-item:visited{
-    border-bottom:  2px solid rgb(5,41,66);
-    padding-bottom:5px;
-}
 
 h1{font-size: calc(1rem *3);}
 h2{font-size: calc(1rem *1.5);
@@ -84,18 +64,6 @@ p{font-size:.95rem;}
 
 
 /* Landmarks */
-/* Header */
-#demo-header.monsido-demo-nav{
-    box-shadow: rgb(0 0 0 / 10%) 0 6px 12px -6px;
-    margin: 0 auto;
-}
-.monsido-demo-nav >.container{
-    max-width:1290px;
-    padding: 1.5rem 0;
-    margin:0 auto;
-}
-
-/* End of Header */
 
 /* Secondary Content */
 section.secondary-content{
@@ -137,6 +105,7 @@ section.secondary-content{
     color:rgb(230, 230, 230);
     font-size:1rem;
     font-weight: 200;
+    text-decoration:none;
 }
 
 
@@ -153,3 +122,4 @@ img.icons{
 img.icons.monsido-icon{
     max-height:50px;
 }
+
