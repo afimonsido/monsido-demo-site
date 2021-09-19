@@ -18,17 +18,247 @@
     </head>
 <body>
     <!-- Start of header -->
-    <header id="demo-header" class="monsido-demo-nav">
+    <header id="demo-header" class="monsido-demo-nav navbar">
         <div class="container">
             <nav role="navigation" class="main-nav nav">
                 <ul>
-                    <li class="nav-item"><a href="./">Home</a></li>
-                    <li class="nav-item"><a href="./quality_assurance.html">Quality Assurance</a></li>
-                    <li class="nav-item"><a href="./policies.html">Policies</a></li>
-                    <li class="nav-item"><a href="./web_acc_page_1.html">Web Accessibility</a></li>
-                    <li class="nav-item"><a href="./on_page_seo.html">On Page SEO</a></li>
-                    <li class="nav-item"><a href="./performance.html">Performance</a></li>
-                    <li class="nav-item"><a href="./data_privacy.html">Data Privacy</a></li>
+                    <li class="nav-item dropdown">
+                    <button class="dropbtn">
+                           <i class="fa fa-home"></i><a href="./">Home</a>
+                    </button>
+                    </li>
+                    <!-- Quality Assurance Menu -->
+                    <li class="nav-item dropdown">
+                     <button class="dropbtn">
+                        <a href="./quality_assurance.html">Quality Assurance</a>
+                        <i class="fa fa-caret-down"></i>
+                      </button>
+                      <div class="dropdown-content">
+                          <div class="row">
+                              <div class="column">
+                                <ul class="menu-list">
+                                    <li>
+                                        <img src="./images/broken-link-chain-svgrepo-com.svg" alt="" class="menu-icons">
+                                        <a href="#">Broken Links</a>
+                                        <p class="menu-item-description">
+                                        A broken link is a web-page that can’t be found or accessed by a user, for various reasons. Web servers will often return an error message when a user tries to access a broken link. Broken links are also often known as “dead links” or “link rots.” 
+                                        </p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="column">
+                                    <div class="menu-list">
+                                        <ul>
+                                        <li><img src="./images/broken-image.svg" alt="" class="menu-icons"><a href="#">Broken Images</a>
+                                        <p class="menu-item-description">First impressions last, and when web visitors see a page with a broken image, they would immediately think that the website is not actively managed. Remove the ugly broken image icons by fixing your broken image URLs</p>
+                                    </li>
+                                    </ul>
+                                  </div>
+                              </div>
+                              <div class="column">
+                                <ul class="menu-list">
+                                    <li>
+                                        <img src="./images/misspellings.svg" alt="" class="menu-icons"><a href="#">Misspellings</a>
+                                        <p class="menu-item-description">A website represents your brand and image. Don't let yourself get caught with misspelled words that can leave a bad impression to your visitors.</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="column">
+                                <ul class="menu-list">
+                                    <li>
+                                        <img src="./images/readability.svg" alt="" class="menu-icons"><a href="#">Readability</a>
+                                        <p class="menu-item-description">Write content to engage and inform your audience. Check your readability scores to know if the articles you publish are suited to your audience.</p>
+                                    </li>
+                                </ul>
+                            </div>
+                          </div>
+                      </div>
+                    </li>
+                    <!-- End of Quality Assurance Menu -->
+                    
+                    <!-- Policies Menu -->
+                    <li class="nav-item dropdown">
+                        <button class="dropbtn">
+                           <a href="./policies.html">Policies</a>
+                           <i class="fa fa-caret-down"></i>
+                         </button>
+                         <div class="dropdown-content">
+                             <div class="row">
+                                 <div class="column">
+                                     <ul>
+                                         <li><img src="./images/templates.svg" alt="" class="menu-icons"><a href="#">Templates</a>
+                                        <p class="menu-item-description">Check out each rule and use case from our list of commonly searched items to speed up your search process.</p></li>
+                                     </ul>
+                                 </div>
+                                 <div class="column">
+                                     <ul>
+                                         <li><img src="./images/search-types.svg" alt="" class="menu-icons"><a href="#">Search Types</a>
+                                        <p class="menu-item-description">Learn what filter type and settings you can use to search your site of content you need to amend, update or delete. </p></li>
+                                     </ul>
+                                 </div>
+                                 <div class="column">
+                                     <ul>
+                                         <li><img src="./images/regex.svg" alt="" class="menu-icons"><a href="#">Regular Expressions</a>
+                                        <p class="menu-item-description">Sometimes, regular text searches are not enough to target areas of your site when hunting keywords that don't meet your style guide. See a list of the most common patterns we use to find targetted content.</p></li>
+                                     </ul>
+                                 </div>
+                                 <div class="column">
+                                     <ul>
+                                         <li><img src="./images/css.svg" alt="" class="menu-icons"><a href="#">CSS Selectors</a>
+                                        <p class="menu-item-description">Simple search terms can receive a major boost when used with our CSS Selectors. Target specific landmarks of your site to remove false positives in your reports. </p></li>
+                                     </ul>
+                                 </div>
+                             </div>
+                         </div>
+                    </li>
+                    <!-- End of Policies Menu -->
+
+                    <!-- Web Accessibility Menu -->
+                    <li class="nav-item dropdown">
+                        <button class="dropbtn">
+                           <a href="./web_acc_page_1.html">Web Accessibility</a>
+                           <i class="fa fa-caret-down"></i>
+                         </button>
+                         <div class="dropdown-content">
+                             <div class="row">
+                                 <div class="column">
+                                     <ul>
+                                         <li><img src="./images/templates.svg" alt="" class="menu-icons"><a href="#">Templates</a>
+                                        <p class="menu-item-description">Check out each rule and use case from our list of commonly searched items to speed up your search process.</p></li>
+                                     </ul>
+                                 </div>
+                                 <div class="column">
+                                     <ul>
+                                         <li><img src="./images/search-types.svg" alt="" class="menu-icons"><a href="#">Search Types</a>
+                                        <p class="menu-item-description">Learn what filter type and settings you can use to search your site of content you need to amend, update or delete. </p></li>
+                                     </ul>
+                                 </div>
+                                 <div class="column">
+                                     <ul>
+                                         <li><img src="./images/regex.svg" alt="" class="menu-icons"><a href="#">Regular Expressions</a>
+                                        <p class="menu-item-description">Sometimes, regular text searches are not enough to target areas of your site when hunting keywords that don't meet your style guide. See a list of the most common patterns we use to find targetted content.</p></li>
+                                     </ul>
+                                 </div>
+                                 <div class="column">
+                                     <ul>
+                                         <li><img src="./images/css.svg" alt="" class="menu-icons"><a href="#">CSS Selectors</a>
+                                        <p class="menu-item-description">Simple search terms can receive a major boost when used with our CSS Selectors. Target specific landmarks of your site to remove false positives in your reports. </p></li>
+                                     </ul>
+                                 </div>
+                             </div>
+                         </div>
+                    </li>
+                    <!-- End of Web Accessibility Menu -->
+
+                    <!-- On Page SEO Menu -->
+                    <li class="nav-item dropdown">
+                        <button class="dropbtn">
+                           <a href="./on_page_seo.html">On Page SEO</a>
+                           <i class="fa fa-caret-down"></i>
+                         </button>
+                         <div class="dropdown-content">
+                             <div class="row">
+                                 <div class="column">
+                                     <ul>
+                                         <li><img src="./images/templates.svg" alt="" class="menu-icons"><a href="#">Templates</a>
+                                        <p class="menu-item-description">Check out each rule and use case from our list of commonly searched items to speed up your search process.</p></li>
+                                     </ul>
+                                 </div>
+                                 <div class="column">
+                                     <ul>
+                                         <li><img src="./images/search-types.svg" alt="" class="menu-icons"><a href="#">Search Types</a>
+                                        <p class="menu-item-description">Learn what filter type and settings you can use to search your site of content you need to amend, update or delete. </p></li>
+                                     </ul>
+                                 </div>
+                                 <div class="column">
+                                     <ul>
+                                         <li><img src="./images/regex.svg" alt="" class="menu-icons"><a href="#">Regular Expressions</a>
+                                        <p class="menu-item-description">Sometimes, regular text searches are not enough to target areas of your site when hunting keywords that don't meet your style guide. See a list of the most common patterns we use to find targetted content.</p></li>
+                                     </ul>
+                                 </div>
+                                 <div class="column">
+                                     <ul>
+                                         <li><img src="./images/css.svg" alt="" class="menu-icons"><a href="#">CSS Selectors</a>
+                                        <p class="menu-item-description">Simple search terms can receive a major boost when used with our CSS Selectors. Target specific landmarks of your site to remove false positives in your reports. </p></li>
+                                     </ul>
+                                 </div>
+                             </div>
+                         </div>
+                    </li>
+                    <!-- End of On Page SEO Menu -->
+                    
+                    <!-- On Performance Menu -->
+                    <li class="nav-item dropdown">
+                        <button class="dropbtn">
+                           <a href="./performance.html">Performance</a>
+                           <i class="fa fa-caret-down"></i>
+                         </button>
+                         <div class="dropdown-content">
+                             <div class="row">
+                                 <div class="column">
+                                     <ul>
+                                         <li><img src="./images/templates.svg" alt="" class="menu-icons"><a href="#">Templates</a>
+                                        <p class="menu-item-description">Check out each rule and use case from our list of commonly searched items to speed up your search process.</p></li>
+                                     </ul>
+                                 </div>
+                                 <div class="column">
+                                     <ul>
+                                         <li><img src="./images/search-types.svg" alt="" class="menu-icons"><a href="#">Search Types</a>
+                                        <p class="menu-item-description">Learn what filter type and settings you can use to search your site of content you need to amend, update or delete. </p></li>
+                                     </ul>
+                                 </div>
+                                 <div class="column">
+                                     <ul>
+                                         <li><img src="./images/regex.svg" alt="" class="menu-icons"><a href="#">Regular Expressions</a>
+                                        <p class="menu-item-description">Sometimes, regular text searches are not enough to target areas of your site when hunting keywords that don't meet your style guide. See a list of the most common patterns we use to find targetted content.</p></li>
+                                     </ul>
+                                 </div>
+                                 <div class="column">
+                                     <ul>
+                                         <li><img src="./images/css.svg" alt="" class="menu-icons"><a href="#">CSS Selectors</a>
+                                        <p class="menu-item-description">Simple search terms can receive a major boost when used with our CSS Selectors. Target specific landmarks of your site to remove false positives in your reports. </p></li>
+                                     </ul>
+                                 </div>
+                             </div>
+                         </div>
+                    </li>
+                    <!-- End of Performance Menu --> 
+                    
+                    <!-- Data Privacy Menu -->
+                    <li class="nav-item dropdown">
+                        <button class="dropbtn">
+                           <a href="./data_privacy.html">Data Privacy</a>
+                           <i class="fa fa-caret-down"></i>
+                         </button>
+                         <div class="dropdown-content">
+                             <div class="row">
+                                 <div class="column">
+                                     <ul>
+                                         <li><img src="./images/templates.svg" alt="" class="menu-icons"><a href="#">Templates</a>
+                                        <p class="menu-item-description">Check out each rule and use case from our list of commonly searched items to speed up your search process.</p></li>
+                                     </ul>
+                                 </div>
+                                 <div class="column">
+                                     <ul>
+                                         <li><img src="./images/search-types.svg" alt="" class="menu-icons"><a href="#">Search Types</a>
+                                        <p class="menu-item-description">Learn what filter type and settings you can use to search your site of content you need to amend, update or delete. </p></li>
+                                     </ul>
+                                 </div>
+                                 <div class="column">
+                                     <ul>
+                                         <li><img src="./images/regex.svg" alt="" class="menu-icons"><a href="#">Regular Expressions</a>
+                                        <p class="menu-item-description">Sometimes, regular text searches are not enough to target areas of your site when hunting keywords that don't meet your style guide. See a list of the most common patterns we use to find targetted content.</p></li>
+                                     </ul>
+                                 </div>
+                                 <div class="column">
+                                     <ul>
+                                         <li><img src="./images/css.svg" alt="" class="menu-icons"><a href="#">CSS Selectors</a>
+                                        <p class="menu-item-description">Simple search terms can receive a major boost when used with our CSS Selectors. Target specific landmarks of your site to remove false positives in your reports. </p></li>
+                                     </ul>
+                                 </div>
+                             </div>
+                         </div>
+                    </li>
                 </ul>
             </nav>
         </div>

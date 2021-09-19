@@ -14,7 +14,7 @@
 h1{font-size: calc(1rem *3);}
 h2{font-size: calc(1rem *1.5);
 padding-bottom:.5rem;}
-h3{font-size:calc(1rem *2)}
+h3{font-size:calc(1rem *1.25)}
 h4{font-size:calc(1rem *1.75)}
 h5{font-size:calc(1rem *1.25)}
 h6{font-size:.calc(1rem *.85)}
@@ -123,3 +123,8 @@ img.icons.monsido-icon{
     max-height:50px;
 }
 
+p.menu-item-description{
+    font-size:.75rem;
+    padding:.25rem;
+    margin:0 auto;
+}

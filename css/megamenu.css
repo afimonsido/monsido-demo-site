@@ -102,29 +102,36 @@ li.nav-item > a:hover, li.nav-item > a:active, li.nav-item:visited{
     display: block;
   }
   .dropdown-content .row{
-      width:50%;
+      width:95%;
       margin:0 auto;
-      padding:2rem 0 0 0;
+      padding:1rem 0 0 0;
   }
   /* Create three equal columns that floats next to each other */
   .column {
     float: left;
-    width: 40%;
+    width: 23%;
     padding: 10px;
     background-color: #fff;
     height: 250px;
   }
 
+  .column li {
+    background-color: #f1f9ff;
+    padding: .5rem;
+    margin-bottom: .5rem;
+  }
   .column li a {
     float: none;
-    color: black;
+    font-size:1rem;
+    color:rgb(5,41,66);
     padding: 16px;
     text-decoration: none;
-    display: block;
+    display: inline-block;
     text-align: left;
   }
   
-  .column a:hover {
+  .column li a:hover {
+    background:none;
     text-decoration:underline;
   }
   
@@ -144,8 +151,7 @@ li.nav-item > a:hover, li.nav-item > a:active, li.nav-item:visited{
     border-style:none;
     display: inline-block;
     max-height: 30px;
-    max-width:100%;
-    margin-right:.25rem;
+    max-width:50%;
     vertical-align: middle;
 }
   /* End of menu items and content */
